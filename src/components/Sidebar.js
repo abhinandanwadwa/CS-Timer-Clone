@@ -21,7 +21,7 @@ const Sidebar = (props) => {
     const getTimes = async () => {
         // API CALL
 
-        const url = `https://localhost:5000/${localStorage.getItem("id")}`;
+        const url = `https://cs-timer-backend.herokuapp.com/${localStorage.getItem("id")}`;
         const response = await fetch(url, {
             method: 'GET',
             headers: {

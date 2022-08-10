@@ -21,7 +21,7 @@ const {timer, setTimer} = context;
     const id = localStorage.getItem("id");
     const time = timer;
 
-    const url = `https://localhost:5000/users`;
+    const url = `https://cs-timer-backend.herokuapp.com/users`;
     const response = await fetch(url, {
         method: 'POST',
         headers: {
