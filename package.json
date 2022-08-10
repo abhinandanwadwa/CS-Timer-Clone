@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "http://cstimer.tk",
+=======
+  "homepage": "https://abhinandanwadwa.github.io/cs-timer-clone",
+>>>>>>> e9d56484aa343a028f98211c2d4dfc334710d589
   "name": "cs-timer-clone",
   "version": "0.1.0",
   "private": true,
